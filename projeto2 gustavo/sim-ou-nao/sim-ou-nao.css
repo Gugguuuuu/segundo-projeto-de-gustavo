@@ -1,0 +1,46 @@
+body{
+    background:linear-gradient(90deg, rgb(253, 1, 1) 0%,rgb(0, 255, 34) 100%);
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    gap:35;
+    justify-content: center;
+    align-items: center;
+    
+}
+#um{
+    margin-right: 90px;   
+    margin-top: 300px;
+    
+    
+    
+}
+#dois{
+    margin-left: 70px;
+    margin-top: 330px;
+    scale:4;
+   
+}
+#tres{
+    margin-left: 160px;
+    margin-top: 300px;
+}
+#s{
+    color:rgb(0, 216, 0);
+    scale:4;
+}
+#n{
+    color:red;
+    scale:4;
+
+}
+
+#pergunta{
+    text-align: center;
+    scale: 3;
+    margin-top: 100px;
+
+
+}
+    

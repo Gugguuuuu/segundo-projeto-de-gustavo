@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    #btn-reload {
+        padding:100px;
+        background-color: black;
+        color:white;
+        margin: 15% 35%;   
+        width: 600px;
+        height: 300px;
+        border-radius: 30px;
+        
+    }
+    #btn-reload:active{
+        background-color: rgb(255, 234, 0);
+        border: solid 10px black
+    }
+    h1{
+        text-align: center;
+        scale:3;
+        margin: 200px;
+        color:rgb(255, 0, 0);
+       
+    }
+    body{
+        background:linear-gradient(90deg, rgb(1, 253, 253) 0%,rgb(0, 255, 72) 100%);
+    }
+
+</style>
+
+
+<body>
+    <div> <h1> botao que reseta a pagina web</h1></div>
+    <div>
+        <button id="btn-reload" onclick="window.location.reload()">click</button>
+    </div>
+    
+</body>
+</html>
